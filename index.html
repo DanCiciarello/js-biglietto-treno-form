@@ -30,15 +30,15 @@
                     <div class="row px-5 py-4 text-center">
                         <div class="col-4">
                             <p class="cd-text-red">Nome Cognome</p>
-                            <input type="text" id="userName" class="cd-input">
+                            <input type="text" placeholder="Inserisci il tuo nome..." name="userName" class="cd-input">
                         </div>
                         <div class="col-4">
                             <p class="cd-text-red">Km da percorrere</p>
-                            <input type="text" id="userKm" class="cd-input">
+                            <input type="text" placeholder="Inserisci i km da percorrere..." name="userKm" class="cd-input">
                         </div>
                         <div class="col-4">
                             <p class="cd-text-red">Età</p>
-                            <input type="text" id="userAge" class="cd-input">
+                            <input type="text" placeholder="Inserisci la tua età..." name="userAge" class="cd-input">
                         </div>
                         <div class="col-12 pt-4">
                             <button class="cd-btn">Genera</button>
@@ -48,49 +48,55 @@
                 </div>
             </div>
 
-            <!-- Second title -->
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-uppercase text-center text-white py-5"><strong>Il tuo biglietto</strong></h1>
-                </div>
-            </div>
+            <!-- Ticket -->
+            <div class="d-none">
 
-            <!-- Card with ticket -->
-            <div class="row">
-                <div class="cd-card">
-                    <div class="row px-5 py-4">
-                        <div class="col-12 pb-2">
-                            <h5 class="text-uppercase"><strong>Dettaglio passeggeri</strong></h5>
-                        </div>
+                <!-- Second title -->
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-uppercase text-center text-white py-5"><strong>Il tuo biglietto</strong></h1>
                     </div>
-                    <div class="row px-5 pb-4">
-                        <div class="col-4 py-5 px-5 cd-table cd-table-dark">
-                            <h6 class="text-uppercase"><strong>Nome passeggero</strong></h6>
-                            <span id="userNameElement">Jon Snow</span>
+                </div>
+    
+                <!-- Card with ticket -->
+                <div class="row">
+                    <div class="cd-card">
+                        <div class="row px-5 py-4">
+                            <div class="col-12 pb-2">
+                                <h5 class="text-uppercase"><strong>Dettaglio passeggeri</strong></h5>
+                            </div>
                         </div>
-                        <div class="col-8 py-5 cd-table">
-                            <div class="row px-5">
-                                <div class="col-3">
-                                    <h6><strong>Offerta</strong></h6>
-                                    <span id="userTicketTypeElement">Biglietto standard</span>
-                                </div>
-                                <div class="col-3">
-                                    <h6><strong>Carrozza</strong></h6>
-                                    <span id="userCarrozzaElement">5</span>
-                                </div>
-                                <div class="col-3">
-                                    <h6><strong>Codice CP</strong></h6>
-                                    <span id="userCpCodeElement">87342</span>
-                                </div>
-                                <div class="col-3">
-                                    <h6><strong>Costo biglietto</strong></h6>
-                                    <span id="userTicketPriceElement">2.10 €</span>
+                        <div class="row px-5 pb-4">
+                            <div class="col-4 py-5 px-5 cd-table cd-table-dark">
+                                <h6 class="text-uppercase"><strong>Nome passeggero</strong></h6>
+                                <span id="userNameElement">Jon Snow</span>
+                            </div>
+                            <div class="col-8 py-5 cd-table">
+                                <div class="row px-5">
+                                    <div class="col-3">
+                                        <h6><strong>Offerta</strong></h6>
+                                        <span id="userTicketTypeElement">Biglietto standard</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6><strong>Carrozza</strong></h6>
+                                        <span id="userCarrozzaElement">5</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6><strong>Codice CP</strong></h6>
+                                        <span id="userCpCodeElement">87342</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6><strong>Costo biglietto</strong></h6>
+                                        <span id="userTicketPriceElement">2.10 €</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+            
 
         </div>
     </main>
