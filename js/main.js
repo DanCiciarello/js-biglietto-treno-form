@@ -6,8 +6,8 @@ const generaBtn = document.querySelector("#generaBtn");
 
 // Create variables
 let userName = "";
-let userKm = "";
-let userAge = "";
+let userKm = 0;
+let userAge = 0;
 const kmPrice = 0.21;
 let ticketPrice = kmPrice * userKm;
 let ticketDiscount = 0;
