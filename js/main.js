@@ -3,8 +3,13 @@ let inputUserName = document.querySelector("[name='userName']");
 let inputUserKm = document.querySelector("[name='userKm']");
 let inputUserAge = document.querySelector("[name='userAge']");
 const generaBtn = document.querySelector("#generaBtn");
+let userNameElement = document.querySelector("#userNameElement");
+let userTicketPriceElement = document.querySelector("#userTicketPriceElement");
 
 // Create variable for km price
+let userName = "";
+let userKm = 0;
+let userAge = 0;
 const kmPrice = 0.21;
 
 // Add event listener to Genera button
@@ -23,5 +28,7 @@ generaBtn.addEventListener("click", function() {
     };
     // Calculate ticket price
     let ticketPrice = (kmPrice * userKm) - (kmPrice * userKm) * ticketDiscount;
-    console.log(ticketPrice);
+    // Print the data in the HTML ticket
+    userNameElement.innerHTML = userName;
+    userTicketPriceElement.innerHTML = ticketPrice + " €";
 });
