@@ -6,11 +6,14 @@ const generaBtn = document.querySelector("#generaBtn");
 let userNameElement = document.querySelector("#userNameElement");
 let userTicketPriceElement = document.querySelector("#userTicketPriceElement");
 
-// Create variable for km price
+
+// Create variables
 let userName = "";
 let userKm = 0;
 let userAge = 0;
+let ticketDiscount = 0;
 const kmPrice = 0.21;
+
 
 // Add event listener to Genera button
 generaBtn.addEventListener("click", function() {
