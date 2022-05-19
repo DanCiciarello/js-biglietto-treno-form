@@ -1,8 +1,10 @@
-// Get HTML elements
+// Get form HTML elements
 let inputUserName = document.querySelector("[name='userName']");
 let inputUserKm = document.querySelector("[name='userKm']");
 let inputUserAge = document.querySelector("[name='userAge']");
 const generaBtn = document.querySelector("#generaBtn");
+
+// Get ticket HTML elements
 let userNameElement = document.querySelector("#userNameElement");
 let userTicketPriceElement = document.querySelector("#userTicketPriceElement");
 let userCarrozzaElement = document.querySelector("#userCarrozzaElement");
