@@ -22,13 +22,13 @@ let userKm = 0;
 let userAge = 0;
 let ticketDiscount = 0;
 const kmPrice = 0.21;
-let correctData = true;
 
 
 // Add event listener to Genera button
 generaBtn.addEventListener("click", function() {
 
     // Assign variables
+    let correctData = true;
     userName = inputUserName.value;
     userKm = inputUserKm.value;
     userAge = inputUserAge.value;
@@ -40,7 +40,7 @@ generaBtn.addEventListener("click", function() {
         correctData = false;
         alert("Controlla i dati inseriti, i km e l'età devono essere dei numeri!");
 
-    } else if (correctData = true) {
+    } else if (correctData == true) {
 
         // Calculate ticket discount
         if (userAge < 18) {
